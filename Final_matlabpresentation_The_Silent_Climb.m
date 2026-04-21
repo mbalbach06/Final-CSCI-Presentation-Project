@@ -59,7 +59,7 @@ end
                            result = 1;
                        end
                        if choice3A == 2
-                           fprintf('Entering the hut you find a cluttered workspace with books covering the walls\n. Only one book is placed on the table titled "The Silent Ascent" picking it up you read the only one man has made it to the top of the mountian and the book describe a trecherous final climb that is only possible with the map located at the back of this book.\n Reading this you immideatly flip to the final page and find that the last page has been torn out.\n You feel dissapointed but leave the hut and ascend the ladder making it to the other side.\n');
+                           fprintf('Entering the hut you find a cluttered workspace with books covering the walls.\nOnly one book is placed on the table titled "The Silent Ascent".\nPicking it up you read the only one man has made it to the top of the mountian and the book describe a trecherous final climb that is only possible with the map located at the back of this book.\nReading this you immideatly flip to the final page and find that the last page has been torn out.\nYou feel dissapointed but leave the hut and ascend the ladder making it to the other side.\n');
                            result = 1;
                            knowledge = 1;
                        end
@@ -118,12 +118,12 @@ end
                    end
                end
                if result == 3
-                   fprintf('You approach the final ascent only few have made it here and this is the ultimate challange of the climb.\n A three way fork blocks your path just as it did in the beginning but thses paths are all identical.\n')
+                   fprintf('You approach the final ascent only few have made it here and this is the ultimate challange of the climb.\nA three way fork blocks your path just as it did in the beginning but thses paths are all identical.\n')
                    fprintf('Out of ideas you pull out the map you collected and discover that the right most path is a straight shot up and begin the final ascent.\n');
                    result = 1;
                end
                if result == 1
-                   fprintf('You stand alone at the top of the unbeatable mountian feeling a sense of accomplishment.\nNow if only you could make it back down.');
+                   fprintf('You stand alone at the top of the unbeatable mountian feeling a sense of accomplishment.\nNow if only you could make it back down.\n');
                    img = imread('finalprojectwinscreen.png');
                    imshow(img);
                    result = 2;
